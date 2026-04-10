@@ -1,0 +1,36 @@
+{
+  "name": "apsnapsync",
+  "version": "1.0.0",
+  "description": "Instant sync of images to S3 cloud from laptop",
+  "main": "main.js",
+  "build": {
+    "appId": "com.apsnap.uploader",
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ananthakrishna-ai/apsnapsync.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ananthakrishna-ai/apsnapsync/issues"
+  },
+  "homepage": "https://github.com/ananthakrishna-ai/apsnapsync#readme",
+  "dependencies": {
+    "axios": "^1.15.0",
+    "chokidar": "^5.0.0"
+  },
+  "devDependencies": {
+    "electron": "^41.2.0",
+    "electron-builder": "^26.8.1"
+  }
+}

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <body style="text-align:center; margin-top:50px; font-family:sans-serif;">
+    <h2>Apsnap Live Uploader</h2>
+    <button onclick="selectFolder()">Select Folder</button>
+
+    <script>
+      const { remote } = require('electron');
+      const selectFolder = require('electron').remote.getGlobal('selectFolder');
+    </script>
+  </body>
+</html>
